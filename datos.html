@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Datos personales</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="container">
+  <!-- Sección Izquierda -->
+  <div class="left-panel">
+    <img src="assets/tebatravel-logo-web.png" class="main-logo" alt="TEBA Travel" />
+    <div class="partners">
+      <img src="assets/utcv-logo.png" alt="UTCV" />
+      <img src="assets/tebaev-logo.png" alt="TEBAEV" />
+    </div>
+    <div class="footer-text">
+      <img src="assets/tebatravel-footer-web.png" class="footer-logo" alt="">
+    </div>
+  </div>
+
+  <!-- Sección Derecha -->
+  <div class="right-panel">
+    <h2>Registro para estudiantes</h2>
+    <form id="registroForm">
+      <input type="text" placeholder="Nombre(s)" name="nombre" required />
+      <input type="text" placeholder="Apellido paterno" name="apellidoPaterno" required />
+      <input type="text" placeholder="Apellido materno" name="apellidoMaterno" required />
+      <input type="tel" placeholder="Número de teléfono" name="telefono" required />
+      <input type="text" placeholder="Fecha de nacimiento    Día / Mes / Año" name="fechaNacimiento" required />
+      <input type="text" placeholder="Escuela" name="escuela" required />
+
+      <button type="submit">
+        Finalizar <span class="arrow">➜</span>
+      </button>
+    </form>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
