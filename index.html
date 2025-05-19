@@ -24,16 +24,15 @@
     <div class="right-panel">
         <h2>Registro para estudiantes</h2>
         <form id="registroForm">
-            <input type="text" placeholder="Nombre de usuario" required />
-            <input type="email" placeholder="Correo" required />
-            <input type="password" placeholder="Contraseña" required />
-            <button type="button" onclick="window.location.href='datos.html'">
+            <input id="txtEmail" type="email" placeholder="Correo" required />
+            <input id="txtPassword" type="password" placeholder="Contraseña" required />
+            <button type="button" onclick="setLocalData(); window.location.href='datos.html'">
                 Siguiente <span class="arrow">➜</span>
             </button>              
         </form>
     </div>
 </div>
 
-<script src="script.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
